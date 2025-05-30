@@ -107,7 +107,7 @@ struct PreSendView: View {
                 onDismiss: { addressAlertPresented = false }
             )
         }
-        .accentColor(.themeOrange)
+        .accentColor(.themeJacob)
     }
 
     @ViewBuilder private func availableBalanceView(value: String?) -> some View {

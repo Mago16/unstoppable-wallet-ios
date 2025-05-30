@@ -38,7 +38,7 @@ struct PrimaryCircleButtonStyle: ButtonStyle {
 
         func backgroundColor(isEnabled: Bool, isPressed: Bool) -> Color {
             switch self {
-            case .active: return isEnabled ? (isPressed ? .themeOrange.pressed : .themeOrange) : .themeBlade
+            case .active: return isEnabled ? (isPressed ? .themeJacob.pressed : .themeJacob) : .themeBlade
             case .default: return isEnabled ? (isPressed ? .themeLeah.pressed : .themeLeah) : .themeBlade
             case .transparent: return .clear
             }

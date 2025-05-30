@@ -51,7 +51,7 @@ extension HighlightedDescriptionBaseView {
         var accentColor: Color {
             switch self {
             case .yellow: return .themeJacob
-            case .red: return .themeOrange
+            case .red: return .themeJacob
             }
         }
     }

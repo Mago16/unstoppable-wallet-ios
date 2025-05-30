@@ -55,8 +55,8 @@ struct SecondaryActiveButtonStyle: ButtonStyle {
 
         func backgroundColor(isEnabled: Bool, isPressed: Bool) -> Color {
             switch self {
-            case .default: return isEnabled ? (isPressed ? .themeOrange.pressed : .themeYellow) : .themeSteel20
-            case .transparent: return isEnabled ? (isPressed ? .themeOrange.pressed : .themeYellow) : .clear
+            case .default: return isEnabled ? (isPressed ? .themeJacob.pressed : .themeYellow) : .themeSteel20
+            case .transparent: return isEnabled ? (isPressed ? .themeJacob.pressed : .themeYellow) : .clear
             }
         }
     }

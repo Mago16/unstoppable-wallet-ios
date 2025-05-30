@@ -66,7 +66,7 @@ struct UsedAddressesView: View {
                 }
             }
         }
-        .accentColor(.themeOrange)
+        .accentColor(.themeJacob)
     }
 
     private func width(index: Int) -> CGFloat {

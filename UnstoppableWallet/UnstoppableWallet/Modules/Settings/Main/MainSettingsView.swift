@@ -173,7 +173,7 @@ struct MainSettingsView: View {
             VStack(alignment: .leading, spacing: .margin4) {
                 Text("premium.cell.title".localized).textHeadline1(color: .themeYellow)
                 Spacer()
-                Text("premium.cell.description".localized).textSubhead1(color: .themeSteelLight)
+                Text("premium.cell.description".localized).textSubhead1(color: .themeLight)
 
                 if let introductoryOffer = viewModel.introductoryOffer {
                     Text(introductoryOffer).textCaptionSB(color: .themeGreen)
@@ -182,7 +182,7 @@ struct MainSettingsView: View {
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(EdgeInsets(top: .margin16, leading: .margin16, bottom: .margin16, trailing: 138))
         }
-        .background(Color.themeDarker)
+        .background(Color.themeDark)
     }
 
     @ViewBuilder private func miniAppSlide() -> some View {
@@ -196,12 +196,12 @@ struct MainSettingsView: View {
             VStack(alignment: .leading, spacing: .margin4) {
                 Text("mini_app.cell.title".localized).textHeadline1(color: .themeYellow)
                 Spacer()
-                Text("mini_app.cell.description".localized).textSubhead1(color: .themeSteelLight)
+                Text("mini_app.cell.description".localized).textSubhead1(color: .themeLight)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(EdgeInsets(top: .margin16, leading: .margin16, bottom: .margin16, trailing: 185))
         }
-        .background(Color.themeDarker)
+        .background(Color.themeDark)
     }
 
     @ViewBuilder private func manageWallets() -> some View {

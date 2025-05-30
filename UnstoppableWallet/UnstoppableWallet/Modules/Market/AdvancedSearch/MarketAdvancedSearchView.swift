@@ -242,7 +242,7 @@ struct MarketAdvancedSearchView: View {
             Text("market.advanced_search.listed_on_top_exchanges".localized).themeBody()
         }
         .disabled(!viewModel.advancedSearchEnabled)
-        .toggleStyle(SwitchToggleStyle(tint: .themeOrange))
+        .toggleStyle(SwitchToggleStyle(tint: .themeJacob))
     }
 
     @ViewBuilder private func goodCexVolumeRow() -> some View {
@@ -253,7 +253,7 @@ struct MarketAdvancedSearchView: View {
             }
         }
         .disabled(!viewModel.advancedSearchEnabled)
-        .toggleStyle(SwitchToggleStyle(tint: .themeOrange))
+        .toggleStyle(SwitchToggleStyle(tint: .themeJacob))
     }
 
     @ViewBuilder private func goodDexVolumeRow() -> some View {
@@ -264,7 +264,7 @@ struct MarketAdvancedSearchView: View {
             }
         }
         .disabled(!viewModel.advancedSearchEnabled)
-        .toggleStyle(SwitchToggleStyle(tint: .themeOrange))
+        .toggleStyle(SwitchToggleStyle(tint: .themeJacob))
     }
 
     @ViewBuilder private func goodDistributionRow() -> some View {
@@ -275,7 +275,7 @@ struct MarketAdvancedSearchView: View {
             }
         }
         .disabled(!viewModel.advancedSearchEnabled)
-        .toggleStyle(SwitchToggleStyle(tint: .themeOrange))
+        .toggleStyle(SwitchToggleStyle(tint: .themeJacob))
     }
 
     @ViewBuilder private func blockchainsRow() -> some View {
@@ -451,7 +451,7 @@ struct MarketAdvancedSearchView: View {
             Text("market.advanced_search.outperformed_btc".localized).themeBody()
         }
         .disabled(!viewModel.advancedSearchEnabled)
-        .toggleStyle(SwitchToggleStyle(tint: .themeOrange))
+        .toggleStyle(SwitchToggleStyle(tint: .themeJacob))
     }
 
     @ViewBuilder private func outperformedEthRow() -> some View {
@@ -459,7 +459,7 @@ struct MarketAdvancedSearchView: View {
             Text("market.advanced_search.outperformed_eth".localized).themeBody()
         }
         .disabled(!viewModel.advancedSearchEnabled)
-        .toggleStyle(SwitchToggleStyle(tint: .themeOrange))
+        .toggleStyle(SwitchToggleStyle(tint: .themeJacob))
     }
 
     @ViewBuilder private func outperformedBnbRow() -> some View {
@@ -467,7 +467,7 @@ struct MarketAdvancedSearchView: View {
             Text("market.advanced_search.outperformed_bnb".localized).themeBody()
         }
         .disabled(!viewModel.advancedSearchEnabled)
-        .toggleStyle(SwitchToggleStyle(tint: .themeOrange))
+        .toggleStyle(SwitchToggleStyle(tint: .themeJacob))
     }
 
     @ViewBuilder private func priceCloseToRow() -> some View {

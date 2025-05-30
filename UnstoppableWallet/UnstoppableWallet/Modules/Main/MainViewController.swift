@@ -14,7 +14,7 @@ class MainViewController: ThemeTabBarController {
     private let transactionsModule = ThemeNavigationController(rootViewController: TransactionsModule.viewController())
     private let settingsModule = MainSettingsView().toNavigationViewController()
 
-    private let settingsTabBarItem = UITabBarItem(title: "settings.tab_bar_item".localized, image: UIImage(named: "filled_settings_2_24"), tag: 0)
+    private let settingsTabBarItem = UITabBarItem(title: nil, image: UIImage(named: "filled_settings_2_24"), tag: 0)
 
     private var showAlerts = [() -> Void]()
 

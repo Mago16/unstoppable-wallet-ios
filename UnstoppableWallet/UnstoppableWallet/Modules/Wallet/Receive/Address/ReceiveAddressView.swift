@@ -137,7 +137,7 @@ struct ReceiveAddressView: View {
                 }
             }
         }
-        .accentColor(.themeOrange)
+        .accentColor(.themeJacob)
     }
 
     private func popupButtons(mode: ReceiveAddressModule.PopupWarningItem.Mode) -> [BottomSheetView.ButtonItem] {
@@ -250,7 +250,7 @@ struct ReceiveAddressView: View {
                         description: "deposit.not_active.tron_description".localized
                     )))
             Spacer()
-            Text("deposit.not_active".localized).textSubhead1(color: .themeOrange)
+            Text("deposit.not_active".localized).textSubhead1(color: .themeJacob)
         }
     }
 

@@ -39,6 +39,6 @@ struct PrivacyPolicyView: View {
                 Text("settings.privacy.allow".localized).themeBody()
             }
         }
-        .toggleStyle(SwitchToggleStyle(tint: .themeOrange))
+        .toggleStyle(SwitchToggleStyle(tint: .themeJacob))
     }
 }

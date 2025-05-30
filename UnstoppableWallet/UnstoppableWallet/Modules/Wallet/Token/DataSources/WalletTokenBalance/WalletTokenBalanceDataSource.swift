@@ -334,7 +334,7 @@ extension WalletTokenBalanceDataSource: UITableViewDelegate {
                     let viewController = BottomSheetModule.description(title: viewItem.infoTitle, text: viewItem.infoDescription)
                     parentViewController?.present(viewController, animated: true)
                 case let .unshield(amount):
-                    let shieldButton = BottomSheetModule.Button(style: .yellow, title: "balance.token.shield".localized, actionType: .afterClose) { [weak self] in
+                    let shieldButton = BottomSheetModule.Button(style: .active, title: "balance.token.shield".localized, actionType: .afterClose) { [weak self] in
                         let module = ShieldSendView(amount: amount, address: nil).toNavigationViewController()
                         self?.parentViewController?.present(module, animated: true)
                     }

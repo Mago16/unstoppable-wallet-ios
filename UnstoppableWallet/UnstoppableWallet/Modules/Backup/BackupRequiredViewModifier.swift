@@ -17,11 +17,11 @@ struct BackupRequiredViewModifier: ViewModifier {
                         .highlightedDescription(text: "wallet_connect.unbackuped_account.description".localized(account.name)),
                     ],
                     buttons: [
-                        .init(style: .yellow, title: "backup_prompt.backup_manual".localized, icon: "edit_24") {
+                        .init(style: .active, title: "backup_prompt.backup_manual".localized, icon: "edit_24") {
                             self.account = nil
                             manualBackupAccount = account
                         },
-                        .init(style: .gray, title: "backup_prompt.backup_cloud".localized, icon: "icloud_24") {
+                        .init(style: .default, title: "backup_prompt.backup_cloud".localized, icon: "icloud_24") {
                             self.account = nil
                             cloudBackupAccount = account
                         },
